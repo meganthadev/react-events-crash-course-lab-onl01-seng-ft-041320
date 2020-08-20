@@ -14,7 +14,9 @@ export default class ChromeBoisDomain extends Component {
      */
   }
   
-  
+   toggleFunction = () => {
+    toggleCycling()
+  }
   
   /* TODO: Create an event handler which, when fired, invokes the provided
    * `toggleCycling` function with no arguments. Don't forget the click event
