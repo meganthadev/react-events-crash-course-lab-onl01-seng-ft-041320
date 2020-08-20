@@ -41,6 +41,8 @@ export default class ChromeBoisDomain extends Component {
   render() {
     return (
       <canvas 
+        onClick={this.toggleFunction}
+        onKeyPress={this.keyPress}
         onMouseMove={this.handleMouseMove}
         width='900'
         height='600'
